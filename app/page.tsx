@@ -3,7 +3,7 @@ import Project from "@/components/Project";
 
 export default function Home() {
   return (
-    <main className="relative flex flex-col min-h-screen items-center md:pl-24 md:pr-24 w-full h-full">
+    <main className="relative flex flex-col min-h-screen items-center pl-0 md:pl-24 md:pr-24 w-full h-full">
       <div className="flex flex-col md:flex-row items-center h-[90vh] justify-center">
         <div className="relative flex w-[150px] h-[140px] rounded-full md:mr-10">
           <Image
@@ -17,8 +17,8 @@ export default function Home() {
           <h1 className="items-center justify-center text-3xl font-bold">
             👋 Alexander Karydas
           </h1>
-          <p className="text-lg md:pl-14">Front-End Web Developer</p>
-          <div className="pt-2 pl-5 items-center justify-center md:pl-14 flex flex-row overflow-hidden">
+          <p className="text-lg ml-0 md:pl-14">Front-End Web Developer</p>
+          <div className="pt-2 pl-0 items-center justify-center md:pl-14 flex flex-row overflow-hidden">
             <p className="bg-gray-100 text-black font-bold text-xs rounded-md px-[3px] py-[3px] mx-0">
               Next.js
             </p>
