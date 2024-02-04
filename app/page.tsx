@@ -3,7 +3,7 @@ import Project from "@/components/Project";
 
 export default function Home() {
   return (
-    <main className="relative flex flex-col min-h-screen items-start md:pl-24 md:pr-24 w-full h-full">
+    <main className="relative flex flex-col min-h-screen items-center md:pl-24 md:pr-24 w-full h-full">
       <div className="flex flex-col md:flex-row items-center h-[90vh] justify-center">
         <div className="relative flex w-[150px] h-[140px] rounded-full md:mr-10">
           <Image
