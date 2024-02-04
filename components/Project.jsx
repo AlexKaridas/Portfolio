@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const Project = ({ imageSource, imageAlt, title, description }) => {
   return (
-    <div className="flex items-start mt-24 mb-24">
-      <div className="flex items-start w-2/4">
+    <div className="flex flex-col items-center justify-center md:flex-row mt-14 md:mt-24 mb-24">
+      <div className="flex items-start w-4/4 md:w-2/4">
         <Image
           src={imageSource}
           alt={imageAlt}
           width={300}
           height={300}
-          className="ring-1 ring-gray-100 rounded-sm"
+          className="ring-1 ring-gray-100 rounded-sm md:mb-0 mb-5"
         />
       </div>
       <div className="flex flex-col justify-start items-start w-3/4">
