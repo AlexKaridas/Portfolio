@@ -2,14 +2,11 @@
 import React from "react";
 import { BackgroundGradient } from "./ui/card-gradient";
 import Image from "next/image";
-import { post } from "@/types";
 import Link from "next/link";
+import supabase from "@/utils/supabase";
+import { notFound } from "next/navigation";
 
-type PostCardProps = {
-    post: post;
-};
-
-export function PostCard({ post }: PostCardProps) {
+export function Post({ post }) {
     return (
         <div className="relative rounded-[22px] min-w-sm  p-4 sm:p-10 bg-white dark:bg-black w-1/2">
             <BackgroundGradient className="relative rounded-[22px] p-0 sm:p-10 bg-white dark:bg-zinc-900 w-full">
@@ -32,7 +29,7 @@ export function PostCard({ post }: PostCardProps) {
                 </p>
                 <button className="rounded-full py-1 px-3 flex items-center space-x-1 bg-gray-100 mt-4 text-xs font-medium dark:bg-zinc-800">
                     <Link
-                        href={{ pathname: `/blog/${post.id}`, query: post.title }}
+                        href={`/blog/${post.id}`}
                         className="dark:text-blue-300 text-sm"
                     >
                         Read more ...

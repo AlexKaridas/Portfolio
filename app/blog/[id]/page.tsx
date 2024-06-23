@@ -1,5 +1,5 @@
-export default function Post({ params }: { params: { postId: number } }) {
-    console.log('postId: ', params.postId)
+export default function Post({ params }: { params: { id: number } }) {
+    console.log('postId: ', params.id)
 
     return (
         <section className="container mx-auto my-8 p-4">
