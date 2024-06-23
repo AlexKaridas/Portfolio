@@ -1,5 +1,5 @@
 import { FetchError, post } from "@/types";
-import { supabase } from "@/utils/supabase";
+import supabase from "@/utils/supabase";
 
 export async function fetchBlogPosts(): Promise<{
   blogPosts: post[] | null;
