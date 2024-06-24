@@ -3,19 +3,17 @@ import Link from "next/link";
 
 const Project = ({ imageSource, imageAlt, title, description, link }) => {
   return (
-
-    <div className="flex flex-row justify-start gap-20 items-center md:flex-row mt-14 md:mt-24 mb-24 w-full">
-      <div className="flex justify-start items-start w-full md:w-1/4">
+    <div className="flex flex-col sm:flex-row justify-start gap-20 items-center mt-14 md:mt-24 mb-24 w-full">
+      <div className="relative flex justify-start items-start h-[300px] w-3/4 sm:mx-0 sm:w-1/2">
         <Image
           src={ imageSource }
           alt={ imageAlt }
-          width={ 300 }
-          height={ 300 }
-          className="ring-1 ring-gray-100 rounded-sm md:mb-0 mb-5"
+          fill
+          className="ring-1 ring-gray-100 rounded-sm object-contain sm:object-cover sm:object-top"
         />
       </div>
-      <div className="flex flex-col justify-start items-start w-2/4">
-        <h2 className="text-lg font-semibold hover:text-sky-200	transition-all">
+      <div className="flex flex-col justify-start items-start w-3/4 sm:w-1/2">
+        <h2 className="text-lg font-bold sm:font-semibold hover:text-sky-200	transition-all">
           <Link href={ `${link}` } target="_blank">
             { title }
           </Link>
