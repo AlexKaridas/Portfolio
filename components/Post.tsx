@@ -3,10 +3,13 @@ import React from "react";
 import { BackgroundGradient } from "./ui/card-gradient";
 import Image from "next/image";
 import Link from "next/link";
-import supabase from "@/utils/supabase";
-import { notFound } from "next/navigation";
+import { post } from "@/types";
 
-export function Post({ post }) {
+interface PostProps {
+    post: post;
+}
+
+export function Post({ post }: PostProps) {
     return (
         <div className="relative rounded-[22px] min-w-sm  p-4 sm:p-10 bg-white dark:bg-black w-1/2">
             <BackgroundGradient className="relative rounded-[22px] p-0 sm:p-10 bg-white dark:bg-zinc-900 w-full">

@@ -3,7 +3,8 @@ export type post = {
   title: string;
   content: string;
   summary: string;
-  image: string;
+  image: string | null;
+  created_at: string;
 };
 
 export interface FetchError {
