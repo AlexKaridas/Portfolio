@@ -65,9 +65,8 @@ To run any of the projects locally, follow these steps:
 
 Feel free to reach out if you have any questions or want to discuss potential collaborations!
 
-- **Email**: your-email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
-- **Website**: [Your Personal Website](https://yourwebsite.com)
+- **Email**: greekdev0@proton.me
+- **LinkedIn**: https://www.linkedin.com/in/alexkarydas/
 
 Thank you for visiting my portfolio! I hope you find my work interesting and inspiring.
 
