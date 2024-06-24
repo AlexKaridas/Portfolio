@@ -8,8 +8,8 @@ export default function Home() {
     <div className="relative z-20 flex flex-col gap-40 items-center pl-0 md:pl-24 md:pr-24 w-full h-full">
       {/* Profile Image and description */}
       <section className="relative w-full h-full p-0 m-0 flex flex-col my-40 gap-40 sm:my-0 sm:gap-0">
-        <BackgroundBeams className="absolute inset-0" />
         <div className="relative sm:min-h-screen flex items-center justify-center">
+          <BackgroundBeams className="absolute inset-0" />
           <div className="flex flex-col md:flex-row items-center justify-center">
             <div className="relative flex w-[150px] h-[140px] rounded-full md:mr-10">
               <Image
