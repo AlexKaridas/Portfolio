@@ -1,7 +1,3 @@
-Certainly! Here's a comprehensive description for your GitHub repo portfolio:
-
----
-
 # Alex's Developer Portfolio
 
 Welcome to my portfolio repository! I'm Alex, a passionate front-end web developer and programmer based in Larisa, Greece. This repository showcases my skills, projects, and the technologies I've worked with. Here you'll find a collection of my best work, demonstrating my proficiency in modern web development and design.
