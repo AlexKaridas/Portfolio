@@ -2,15 +2,16 @@ import Image from "next/image";
 import Project from "@/components/Project";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import SkillCard from "@/components/SkillCard";
+import { FaReact } from "react-icons/fa";
 
 export default function Home() {
   return (
     <div className="relative z-20 flex flex-col gap-40 items-center pl-0 md:pl-24 md:pr-24 w-full h-full">
-      {/* Profile Image and description */}
       <section className="relative w-full h-full p-0 m-0 flex flex-col my-40 gap-40 sm:my-0 sm:gap-0">
+        {/* Profile Image and description */}
         <div className="relative sm:min-h-screen flex items-center justify-center">
           <BackgroundBeams className="absolute inset-0" />
-          <div className="flex flex-col md:flex-row items-center justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center z-20">
             <div className="relative flex w-[150px] h-[140px] rounded-full md:mr-10">
               <Image
                 src="/profile.jpg"
@@ -23,14 +24,18 @@ export default function Home() {
               <h1 className="items-center justify-center text-3xl font-bold">
                 👋 Alexandros Karydas
               </h1>
-              <p className="text-lg ml-0 md:pl-14">React Developer</p>
+              <div className="flex items-center md:pl-14 mt-3">
+                <FaReact size={30} color="lightblue" />
+                <p className="text-lg ml-2 ">React Developer</p>
+              </div>
+
             </div>
           </div>
         </div>
         {/* Skills */}
         <section className="flex flex-col gap-5 sm:mx-0 mx-5">
-          <h2 className="text-xl">Skills</h2>
-          <div className="grid grid-cols-2 mx-0 sm:mx-0 sm:grid-cols-3 gap-5">
+          <h2 className="text-3xl font-extralight md:ml-0" >Skills</h2>
+          <div className="grid grid-cols-2 mx-0 sm:mx-0 sm:grid-cols-3 gap-5 mt-14">
             <SkillCard skill="Next.js" category="Web Development" />
             <SkillCard skill="React.js" category="Web Development" />
             <SkillCard skill="React Native" category="App Development" />
@@ -47,12 +52,12 @@ export default function Home() {
 
       {/* Projects Section */}
       <section className="flex flex-col relative mb-24 items-start justify-start" id={'projects'}>
-        <h2 className="text-2xl font-bold ml-11 md:ml-0" >My Projects</h2>
+        <h2 className="text-3xl font-extralight ml-11 md:ml-0" >My Projects</h2>
         <Project
           imageSource={"/stonevilla.png"}
           imageAlt={"stovevilla.online screenshot"}
           link={"https://www.stonevillamouzaki.online/"}
-          title={"stonevillamouzaki.online"}
+          title={"Airbnb Stone Villa Landing Page"}
           description={
             "A beautifull custom AirBnb landing page for an old stone villa in Mouzaki, Greece. Made with Next.js, Scss"
           }
