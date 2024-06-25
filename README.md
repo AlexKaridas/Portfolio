@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Alex's Developer Portfolio
 
-## Getting Started
+Welcome to my portfolio repository! I'm Alex, a passionate front-end web developer and programmer based in Larisa, Greece. This repository showcases my skills, projects, and the technologies I've worked with. Here you'll find a collection of my best work, demonstrating my proficiency in modern web development and design.
 
-First, run the development server:
+## About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I am a dedicated programmer and student with a strong focus on front-end web development. My journey in coding is fueled by a deep interest in creating intuitive and visually appealing user interfaces. I am constantly expanding my knowledge and skills, aiming for both personal growth and professional excellence.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies and Skills
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Programming Languages**: JavaScript, TypeScript, HTML, CSS, SCSS
+- **Frameworks and Libraries**: React.js, Next.js, React Native
+- **Styling**: Tailwind CSS, CSS Modules
+- **Tools and Platforms**: Vercel, Supabase, GitHub
+- **Other Skills**: Responsive Design, RESTful APIs, Version Control (Git), Agile Methodologies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Featured Projects
 
-## Learn More
+### [Project Name 1]
+**Description**: A brief description of the project, its purpose, and the technologies used.
+**Live Demo**: [Link to live demo]
+**Repository**: [Link to repository]
 
-To learn more about Next.js, take a look at the following resources:
+### [Project Name 2]
+**Description**: A brief description of the project, its purpose, and the technologies used.
+**Live Demo**: [Link to live demo]
+**Repository**: [Link to repository]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### [Project Name 3]
+**Description**: A brief description of the project, its purpose, and the technologies used.
+**Live Demo**: [Link to live demo]
+**Repository**: [Link to repository]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation and Setup
 
-## Deploy on Vercel
+To run any of the projects locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Navigate to the project directory:
+   ```bash
+   cd your-repo-name
+   ```
+
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:3000`.
+
+## Contact
+
+Feel free to reach out if you have any questions or want to discuss potential collaborations!
+
+- **Email**: greekdev0@proton.me
+- **LinkedIn**: https://www.linkedin.com/in/alexkarydas/
+
+Thank you for visiting my portfolio! I hope you find my work interesting and inspiring.
+
+---
+
+Feel free to customize this template further with specific details about your projects, additional skills, or any other information you find relevant.
