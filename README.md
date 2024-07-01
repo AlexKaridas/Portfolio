@@ -14,23 +14,6 @@ I am a dedicated programmer and student with a strong focus on front-end web dev
 - **Tools and Platforms**: Vercel, Supabase, GitHub
 - **Other Skills**: Responsive Design, RESTful APIs, Version Control (Git), Agile Methodologies
 
-## Featured Projects
-
-### [Project Name 1]
-**Description**: A brief description of the project, its purpose, and the technologies used.
-**Live Demo**: [Link to live demo]
-**Repository**: [Link to repository]
-
-### [Project Name 2]
-**Description**: A brief description of the project, its purpose, and the technologies used.
-**Live Demo**: [Link to live demo]
-**Repository**: [Link to repository]
-
-### [Project Name 3]
-**Description**: A brief description of the project, its purpose, and the technologies used.
-**Live Demo**: [Link to live demo]
-**Repository**: [Link to repository]
-
 ## Installation and Setup
 
 To run any of the projects locally, follow these steps:
