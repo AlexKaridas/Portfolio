@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc",
     "@radix-ui/react-label": "^2.0.2",
     "@supabase/ssr": "^0.3.0",
     "@supabase/supabase-js": "^2.43.5",
@@ -16,19 +18,21 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.11",
     "next": "14.1.0",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^19.0.0-rc-f38c22b244-20240704",
+    "react-dom": "^19.0.0-rc-f38c22b244-20240704",
     "react-icons": "^5.2.1",
     "supabase": ">=1.8.1",
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc"
   }
 }

@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { BackgroundGradient } from "./ui/card-gradient";
 import Image from "next/image";
@@ -11,8 +10,8 @@ interface PostProps {
 
 export function Post({ post }: PostProps) {
     return (
-        <div className="relative rounded-[22px] min-w-sm  p-4 sm:p-10 bg-white dark:bg-black w-1/2">
-            <BackgroundGradient className="relative rounded-[22px] p-0 sm:p-10 bg-white dark:bg-zinc-900 w-full">
+        <div className="relative rounded-[22px] min-w-sm p-4 sm:p-10 bg-white dark:bg-black w-full lg:w-1/2">
+            <BackgroundGradient className="relative rounded-[22px] p-5 sm:p-10 bg-white dark:bg-zinc-900 w-full">
                 <div className="relative w-full h-[200px] items-center justify-center flex">
                     {post.image ? (
                         <Image

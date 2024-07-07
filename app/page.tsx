@@ -12,12 +12,14 @@ export default function Home() {
         <div className="relative sm:min-h-screen flex items-center justify-center">
           <BackgroundBeams className="absolute inset-0" />
           <div className="flex flex-col md:flex-row items-center justify-center z-20">
-            <div className="relative flex w-[150px] h-[140px] rounded-full md:mr-10">
+            <div className="relative flex w-[256px] h-[256px] rounded-full md:mr-10">
               <Image
                 src="/profile.jpg"
                 alt="Profile Picture"
                 fill={true}
                 className="rounded-full ring-2 ring-gray-100"
+                priority={true}
+                sizes="256px"
               />
             </div>
             <div className="flex mt-5 flex-col md:mt-0 items-center justify-center">
