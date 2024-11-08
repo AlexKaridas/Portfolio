@@ -10,7 +10,7 @@ export default function Home() {
       <section className="relative w-full h-full p-0 m-0 flex flex-col my-40 gap-40 sm:my-0 sm:gap-0">
         {/* Profile Image and description */}
         <div className="relative sm:min-h-screen flex items-center justify-center">
-          <BackgroundBeams className="absolute inset-0" />
+        {/*<BackgroundBeams className="absolute inset-0" />*/}
           <div className="flex flex-col md:flex-row items-center justify-center z-20">
             <div className="relative flex w-[256px] h-[256px] rounded-full md:mr-10">
               <Image
@@ -27,8 +27,8 @@ export default function Home() {
                 👋 Alexandros Karydas
               </h1>
               <div className="flex items-center md:pl-14 mt-3">
-                <FaReact size={30} color="lightblue" />
-                <p className="text-lg ml-2 ">React Developer</p>
+              {/*<FaReact size={30} color="lightblue" />*/}
+                <p className="text-lg ml-2 ">Web Developer | Software Engineer</p>
               </div>
 
             </div>
@@ -48,6 +48,7 @@ export default function Home() {
             <SkillCard skill="CSS" category="Web Development" />
             <SkillCard skill="Javascript" category="Web Development" />
             <SkillCard skill="Expo" category="App Development" />
+            <SkillCard skill="Rust" category="Backend | Software Development" />
           </div>
         </section>
       </section>

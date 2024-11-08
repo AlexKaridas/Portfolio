@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { IconType } from 'react-icons';
 import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaCode } from 'react-icons/fa';
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiSass, SiExpo } from 'react-icons/si';
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiSass, SiExpo, SiRust } from 'react-icons/si';
 
-type SkillName = 'react.js' | 'html5' | 'css' | 'javascript' | 'next.js' | 'typescript' | 'tailwind' | 'scss' | 'react native' | 'expo';
+type SkillName = 'react.js' | 'html5' | 'css' | 'javascript' | 'next.js' | 'typescript' | 'tailwind' | 'scss' | 'react native' | 'expo' | 'rust';
 
 interface SkillProps {
     skill: string,
@@ -21,6 +21,7 @@ const skillIcons: { [key in SkillName]: IconType } = {
     scss: SiSass,
     'react native': FaReact,
     expo: SiExpo,
+    rust: SiRust,
 };
 
 
