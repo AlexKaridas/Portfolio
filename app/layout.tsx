@@ -4,14 +4,11 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileHeader from "@/components/MobileHeader";
-
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: "Alexandros Karydas",
-  description: "Web developer",
+  description: "Portfolio of a Developer",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
