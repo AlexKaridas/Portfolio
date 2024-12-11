@@ -79,9 +79,9 @@ export default function Home() {
             <div className="relative flex items-center justify-center w-full sm:h-full bg-cover h-full md:h-64 sm:w-full">
               <Image src="/proxy-image.jpg" className="rounded-lg" fill alt="Advent of code image" />
             </div>
-            <div className="flex flex-row w-full gap-5 items-center justify-center">
-              <div className="relative w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center">
-                <SiRust className="h-full w-full" />
+            <div className="flex flex-row w-full gap-5 items-center justify-start">
+              <div className="relative sm:w-12 sm:h-12 flex items-center justify-center">
+                <SiRust className="w-10 h-10" />
               </div>
               <div className="flex flex-col items-start justify-start">
                 <p className="font-semibold text-md sm:text-lg text-gray-100">Advent of Code with </p>
