@@ -7,7 +7,7 @@ import { SiRust } from 'react-icons/si';
 export default function Home() {
   return (
     <div className="relative z-20 flex flex-col gap-40 items-center md:items-start pl-0 md:pl-24 md:pr-24 w-full h-full">
-      <section className="relative w-full h-full p-0 m-0 flex flex-col my-40 sm:my-0 sm:gap-0">
+      <section className="relative w-full h-full p-0 m-0 flex gap-32 sm:gap-0 flex-col my-40 sm:my-0 ">
         {/* Profile Image and description */}
         <div className="relative sm:min-h-screen flex items-center justify-center">
           <div className="flex flex-col md:flex-row items-center justify-center z-20">
@@ -56,7 +56,7 @@ export default function Home() {
       {/*Highlights*/}
       <section className="flex flex-col gap-5 sm:mx-0 mx-5">
         <h2 className="text-3xl font-extralight md:ml-0">Highlights</h2>
-        <div className="grid grid-cols-2 mx-0 sm:mx-0 sm:grid-cols-3 gap-10 mt-14">
+        <div className="grid grid-cols-1 gap-10 grid-rows-2 sm:grid-rows-1 mx-0 sm:mx-0 sm:grid-cols-3 sm:gap-10 mt-14">
 
           {/*HighlightCard*/}
           <Link href="https://www.credly.com/badges/f6f1c1f0-7d44-410a-a578-0ff7ecccf9df" className="flex-col bg-zinc-900 rounded-lg flex items-center gap-4 p-4 border-gray-800 border z-20 sm:gap-6 sm:p-6">
@@ -76,8 +76,8 @@ export default function Home() {
 
           {/*HighlightCard*/}
           <Link href="https://adventofcode.com/" className="bg-zinc-900 rounded-lg flex flex-col justify-between h-full items-center gap-4 p-4 border-gray-800 border z-20 sm:gap-12 sm:p-6">
-            <div className="relative flex items-center justify-center w-full h-full bg-cover">
-              <Image src="/proxy-image.jpg" className="flex rounded-lg" fill alt="Advent of code image" />
+            <div className="relative flex items-center justify-center w-full sm:h-full bg-cover h-full md:h-64 sm:w-full">
+              <Image src="/proxy-image.jpg" className="rounded-lg" fill alt="Advent of code image" />
             </div>
             <div className="flex flex-row w-full gap-5 items-center justify-center">
               <div className="relative w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center">
