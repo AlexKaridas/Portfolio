@@ -76,17 +76,19 @@ export default function Home() {
 
           {/*HighlightCard*/}
           <Link href="https://adventofcode.com/" className="bg-zinc-900 rounded-lg flex flex-col justify-between h-full items-center gap-4 p-4 border-gray-800 border z-20 sm:gap-12 sm:p-6">
-            <div className="relative flex items-center justify-center w-full sm:h-full bg-cover h-full md:h-64 sm:w-full">
-              <Image src="/proxy-image.jpg" className="rounded-lg" fill alt="Advent of code image" />
+            <div className="relative flex items-center justify-center w-full h-full bg-cover sm:w-full">
+              <Image src="/proxy-image.jpg" className="rounded-lg bg-cover" fill alt="Advent of code image" />
             </div>
             <div className="flex flex-row w-full gap-5 items-center justify-start">
               <div className="relative sm:w-12 sm:h-12 flex items-center justify-center">
                 <SiRust className="w-10 h-10" />
               </div>
               <div className="flex flex-col items-start justify-start">
-                <p className="font-semibold text-md sm:text-lg text-gray-100">Advent of Code with </p>
-                <p className="font-semibold text-md sm:text-lg text-gray-100 flex ">Rust</p>
-                <p className="font-light text-sm sm:text-md text-gray-400">Currently in Event 2015 Day04</p>
+                <div className="flex flex-col sm:flex-row">
+                  <p className="font-semibold text-md sm:text-lg text-gray-100">Advent of Code with </p>
+                  <p className="font-semibold text-md sm:text-lg text-gray-100 flex ">Rust</p>
+                </div>
+                <p className="font-light text-sm sm:text-md text-gray-400">Currently in Event 2015 Day05</p>
               </div>
             </div>
           </Link>
