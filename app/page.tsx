@@ -116,6 +116,13 @@ export default function Home() {
           title={"Ancient Olympia Landing Page"}
           description={"A landing page for Ancient Olympia, Greece that explores the sites of the ancient city and provides some fun history facts for the ancient city of olympia. Made with Next.js, Tailwind and Typescript."}
         />
+        <Project
+          imageSource={"/Chimp Game.png"}
+          imageAlt={"Chimp Javascript Game"}
+          link={"https://github.com/AlexKaridas/chimp-memory-game/tree/main"}
+          title={"Chimp Javascript Game"}
+          description={"The triger for this project was this https://www.youtube.com/watch?v=PNrWUS13th8 japanese chimpanzee memory experiment and it is a web-based interactive number sequence game that challenges users' memory and reaction speed. Built with JavaScript for the frontend and Rust (Actix Web) for the backend, it dynamically generates a randomized number sequence, requiring players to click in the correct order while avoiding mistakes. The game features real-time user interaction, tracking progress and triggering visual and audio feedback using the Web Audio API. The Rust backend efficiently serves static assets such as JavaScript, CSS, and sound files while ensuring correct MIME types and security. Styled with Tailwind CSS, while optimized event-driven logic ensures smooth gameplay."}
+        />
       </section>
     </div>
   );
